@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #070b38, #4554a7);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    min-height: 100vh;
+    
+   
+}
+
+p {
+    margin-top: 20px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    max-height: 450px;
+    max-width: 300px;
+    border: none;
+    box-shadow: 5px 5px rgb(0, 0, 0, 0.3);
+}
+
+div {
+    border-style: ;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-width: 150px;
+    text-align: center;
+}
+
+.description {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1.5rem;
+    color: #070b38;
+    border-bottom: 1px solid;
+}
+
+.contador button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4554a7;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #070b38;
+}
+
+.button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.contador span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    padding: 20px;
+    border-radius: 8px;
+    
+
+}
+
+
+
+
